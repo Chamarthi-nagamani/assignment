@@ -1,0 +1,38 @@
+<!-- console methods -->
+<!-- /1.console.clear(); -->
+<!-- 2.console.assert(); -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework</title>
+</head>
+<body>
+    <script>
+        console.assert(0,"this is false value");
+        console.count("hello");
+        console.count("hello");
+        console.count("hello");
+        console.countReset("hello");
+        console.group("parents group");
+        console.log("father");
+        console.log("mother");
+        console.groupEnd();
+        const users=[
+            {name:"marco",age:26},
+            {name:"leo",age:24}
+            ];
+            console.table(users);
+            console.time();
+            for(var i=0; i<100000; i++)
+            {
+                let square=i ** 2;
+            }
+            console.timeEnd(); 
+
+    </script>
+
+    
+</body>
+</html>
